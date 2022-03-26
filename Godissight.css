@@ -112,9 +112,12 @@ body {
 }
 
  /*Egen blandning sidans data*/
-
+ .flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
  .boxGodis {
-    height: 20%;
+    height: 35%;
     width: 21%;
     background-color: rgb(255, 255, 255);
     margin: 2%;
@@ -132,7 +135,25 @@ body {
     overflow: hidden;
     text-align: center;
     font-size: 40px;
-
+}
+.cart1 {
+  height: 100%;
+  width: 100%;
+  float: right;
+}
+button {
+  width: 25%;
+  height: 25%;
+  float: right;
+  background-color: rgba(252, 166, 255, 0.404);
+  margin-right:5%;
+}
+button:hover{
+  background-color: rgba(0, 255, 255, 0.164);
+}
+p{
+  float: left;
+  font-size: 30px;
 }
 
 
