@@ -2,38 +2,45 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Mr.Grinch-Julsida</title>
+    <title>Godissida</title>
     <link rel="icon" type="image/x-icon" href="logo1.png">
     <link rel="stylesheet" href="Godissight.css">
 </head>
 <body>  
 
-     <div id="navbar" class="navbar">
-        <a href="Godissight.html" ><h5>HEM</h5></a>
-        <a href="egen_blandning.html"><h5>ENGEN BLANDNING</h5></a>
-        <a href="presenter.html" ><h5>NYHETER</h5></a>
-      </div>
-
-
   <div class="box1"> 
-    <div class="oval"><H1>CADY C🍬MPANY</H1></div>
+    <div class="oval"><H1>CADY COMPANY</H1></div>
   </div>
 
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </li>
+  </ul>
 
   <div class="box2"> FÄRDIG BLANDNING</div>
   <div class="box2"> SKAPA DIN EGEN BLANDNING</div>
 
-  <div class="box3"> PÅSE 500G</div>
-  <div class="box3"> BURK 1KG</div>
-  <div class="box3"> LÅDA 2KG</div>
-<div class="flex-contariner">
+     <div class="box3"> PÅSE 500G</div>
+     <div class="box3"> BURK 1KG</div>
+     <div class="box3"> LÅDA 2KG</div>
+
   <div class="boxGodis"><img src="images/godis1.png" alt="Godis" class="bildBox1">
        <div class="textbox">Spanska ägg<br />
         <p>12,5kr/kg
           <button  onclick="AddtoCart('123333 choklad','20g',150)">
             <img src="images/cart.png"  class="cart1">
          </button>    
-        </p>       </div>   
+        </p>       
+      </div>   
   </div>
   <div class="boxGodis"><img src="images/godis2.png" alt="grinchen med en kaka" class="bildBox1">
        <div class="textbox">Stora nougatägg<br />
@@ -95,7 +102,6 @@
        </button>    
       </p>    </div>  
   </div>
-</div>
 
 
   <div class="boxGodis"><img src="images/godis9.png" alt="grinchen med en kaka" class="bildBox1">
@@ -191,10 +197,136 @@
       <p>12,5kr/kg
       <button  onclick="AddtoCart('123333 choklad','20g',150)">
         <img src="images/cart.png"  class="cart1">
-     </button>    
+     </button> 
     </p>
     </div>  
   </div>
+
+</div>
+
+<div class="flex-container">
+  <div class="boxGodis"><img src="images/godis10.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox"> Werthers choklad<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Werthers choklad','20g',150)"/>
+    </div>
+  </div> 
+
+  <div class="boxGodis"><img src="images/godis10.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox"> Werthers choklad<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Werthers choklad','20g',150)"/>
+    </div>
+  </div>
+
+  <div class="boxGodis"><img src="images/godis10.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox"> Werthers choklad<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Werthers choklad','20g',150)"/>
+    </div>
+  </div>
+
+  <div class="boxGodis"><img src="images/godis1.png" alt="Godis" class="bildBox1">
+    <div class="textbox">Spanska ägg<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Spanska ägg','20g',150)"/>
+    </div>  
+  </div>
+  <div class="boxGodis"><img src="images/godis2.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox">Stora nougatägg<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Stora nougatägg','20g',150)"/>
+    </div>  
+  </div>
+  <div class="boxGodis"><img src="images/godis3.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox">Små nougatägg<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Små nougatägg','20g',150)"/>
+    </div> 
+  </div>
+
+  <div class="boxGodis"><img src="images/godis4.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox"> Tutti grutti<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Tutti grutti','20g',150)"/>
+    </div> 
+  </div>
+  <div class="boxGodis"><img src="images/godis5.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox"> Vit choklad ägg<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Små nougatägg','20g',150)"/>
+    </div> 
+  </div>
+  <div class="boxGodis"><img src="images/godis6.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox"> Mix nougatägg<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Mix nougatägg','20g',150)"/>
+    </div> 
+  </div>
+  <div class="boxGodis"><img src="images/godis7.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox"> Chokladägg<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Chokladägg','20g',150)"/>
+    </div> 
+  </div>
+  <div class="boxGodis"><img src="images/godis8.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox"> Nötchokld ägg<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Nötchokld ägg','20g',150)"/>
+    </div> 
+  </div>
+  <div class="boxGodis"><img src="images/godis9.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox">Werthers<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Werthers','20g',150)"/>
+    </div> 
+  </div>
+  <div class="boxGodis"><img src="images/godis10.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox"> Werthers<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Werthers','20g',150)"/>
+    </div> 
+  </div>
+  <div class="boxGodis"><img src="images/godis11.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox"> Jordnötsnougat<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Jordnötsnougat','20g',150)"/>
+    </div> 
+  </div>
+  <div class="boxGodis"><img src="images/godis12.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox"> Sur melonbomb<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Sur melonbomb','20g',150)"/>
+    </div> 
+  </div>
+  <div class="boxGodis"><img src="images/godis13.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox">Colaskalle<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Colaskalle','20g',150)"/>
+    </div> 
+  </div>
+  <div class="boxGodis"><img src="images/godis15.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox"> Sorbisar<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Sorbisar','20g',150)"/>
+    </div> 
+  </div>
+  <div class="boxGodis"><img src="images/godis16.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox"> Jordgubbsdröm<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Jordgubbsdröm','20g',150)"/>
+    </div> 
+  </div>
+  <div class="boxGodis"><img src="images/godis14.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox">Annanasskalle<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Annanasskalle','20g',150)"/>
+    </div> 
+  </div>
+  <div class="boxGodis"><img src="images/godis10.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox"> Werthers choklad<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Werthers choklad','20g',150)"/>
+    </div> 
+  </div>
+  <div class="boxGodis"><img src="images/godis10.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox"> Werthers choklad<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Werthers choklad','20g',150)"/>
+    </div> 
+  </div>
+  <div class="boxGodis"><img src="images/godis10.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox"> Werthers choklad<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Werthers choklad','20g',150)"/>
+    </div> 
+  </div>
+  <div class="boxGodis"><img src="images/godis10.png" alt="grinchen med en kaka" class="bildBox1">
+    <div class="textbox"> Werthers choklad<br />
+      <input type="button" value="Add to cart" onclick="AddtoCart('Werthers choklad','20g',150)"/>
+    </div> 
+  </div>
+
+</div>
+
 
 
 
