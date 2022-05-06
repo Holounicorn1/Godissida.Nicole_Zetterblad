@@ -1,209 +1,163 @@
 @charset "utf-8";
 
 body {
-    margin: 0;
-    background-color: #e07aff;
-    background-image: url("images/bakgrund3.jpg");
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-   }
-  h1 {
-     font-size: 100px;
-     font-family: 'IM FELL French Canon SC', sans-serif;
-     color:rgb(49, 10, 47);
-    }
-  h2 {
-    font-size: 30px;
-    text-align: center;
-    font-family: 'IM FELL French Canon SC', sans-serif;
-    color:white;
-  }
-  h3 {
-    font-family: 'Simple Brush Script', sans-serif;
-    font-size: 40px;
-    color: white;
-  }
-  h4{
-    font-size: 25px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    color:rgb(0, 0, 0);
-  }
-  h5{
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    color:rgb(0, 0, 0);
-  }
-  p{
-    font-family: 'Times New Roman', Times, serif;
-  }
+  margin: 0;
+  background-color: #e07aff;
+  background-image: url("images/bakgrund3.jpg");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-size: 100px;
+  font-family: "IM FELL French Canon SC", sans-serif;
+  color: rgb(255, 255, 255);
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+  font-family: "IM FELL French Canon SC", sans-serif;
+  color: white;
+}
+h3 {
+  font-family: "Simple Brush Script", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+h4 {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(0, 0, 0);
+}
+h5 {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(0, 0, 0);
+}
+p {
+  font-family: "Times New Roman", Times, serif;
+}
 
 /*NAVBAREN*/
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(247, 170, 229);
-    position: sticky;
-    top: 0;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover {
-    background-color: #111;
-  }
-  
-  li a:active {
-    background-color: #e07aff;
-  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(247, 170, 229);
+  position: sticky;
+  top: 0;
+}
 
-  .varukorn-nav{
-    float: left;
-    margin-right: 5%;
-  }
-  .varukorg-nav1{
-    height: 40px;
-    width: 40px;
-    margin-right: 5%;
-    float: left;
+li {
+  float: left;
+}
 
-  }
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+li a:active {
+  background-color: #e07aff;
+}
+
+.varukorn-nav {
+  float: left;
+  margin-right: 5%;
+}
+.varukorg-nav1 {
+  height: 40px;
+  width: 40px;
+  margin-right: 5%;
+  float: left;
+}
 
 /*BAKGRUNDSBILDEN*/
-.bakgrundsbild{
+.bakgrundsbild {
   background-image: url("image/bakgrund1.jpg");
   width: 100%;
   height: 100%;
   background-repeat: no-repeat;
 }
 
- 
-  
-  li .varukorg {
-    float: right;
-  }
-  
-  li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
-  }
-  
-  li.dropdown {
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {background-color: #f1f1f1;}
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-
-
-
-
 .box1 {
-    width: 75%;
-    background-image: url("candy.jpg");
-    height: 150px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 2%;
-    padding: 10%;
-    text-align: center;
+  width: 75%;
+  background-image: url("images/godisbakgrund.png");
+  height: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 2%;
+  padding: 10%;
+  text-align: center;
 }
 .oval {
-    background-color: #f2f2f2;
-    border-radius: 20px;
-
+  background-color: #9de1facd;
+  border-radius: 500px;
 }
-.box2{
-    height: 400px;
-    width: 40%;
-    background-color: rgb(247, 0, 255);
-    margin: 5%;
-    float: left;
+.box2 {
+  height: 400px;
+  width: 40%;
+  background-color: rgb(245, 156, 168);
+  margin: 5%;
+  float: left;
+}
+.box1-bild {
+  width: 100%;
+  height: 400px;
+  overflow: hiddens;
 }
 .box3 {
-    height: 400px;
-    width: 29%;
-    background-color: aqua;
-    margin: 2%;
-    float: left;
+  height: 400px;
+  width: 29%;
+  background-color: aqua;
+  margin: 2%;
+  float: left;
 }
 .enhörning1 {
-    height: 400px;
-    width: 40%;
-    background-image: url("enhörning1.png");
-    background-repeat: no-repeat    ;
-    margin: 5%;
-    float: left;
+  height: 400px;
+  width: 40%;
+  background-image: url("enhörning1.png");
+  background-repeat: no-repeat;
+  margin: 5%;
+  float: left;
 }
 
- /*Egen blandning sidans data*/
-  .flex-container {
-    display: flex;
-    flex-wrap: wrap;
+/*Egen blandning sidans data*/
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
 }
- .boxGodis {
-    height: 40%;
-    width: 21%;
-    background-color: rgb(255, 255, 255);
-    margin: 2%;
-    float: left;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
- }
- .bildBox1{
-    width: 100%;
-    height:70%;
-    overflow: hidden;
+.boxGodis {
+  height: 40%;
+  width: 21%;
+  background-color: rgb(255, 255, 255);
+  margin: 2%;
+  float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.bildBox1 {
+  width: 100%;
+  height: 70%;
+  overflow: hidden;
 }
 .textbox {
-    padding: 1%;
-    width: 100%;
-    height:auto;
-    overflow: hidden;
-    text-align: center;
-    font-size: 30px;
-    padding: 2%;
+  padding: 1%;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  text-align: center;
+  font-size: 30px;
 }
 /*KNAPPEN*/
 .cart1 {
@@ -216,13 +170,13 @@ button {
   height: 20%;
   float: right;
   background-color: rgba(252, 166, 255, 0.404);
-  margin-right:5%;
+  margin-right: 5%;
   margin-top: 0%;
 }
-button:hover{
+button:hover {
   background-color: rgba(0, 255, 255, 0.164);
 }
-p{
+p {
   float: left;
   font-size: 30px;
 }
@@ -230,36 +184,14 @@ p{
   display: flex;
   flex-wrap: wrap;
 }
+.korg-knapp {
+  width: 100px;
+  height: 48px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
+.varukorg-box {
+  width: 70%;
+  height: auto;
+  background-color: #f2f2f2;
+  align-items: center;
+}
