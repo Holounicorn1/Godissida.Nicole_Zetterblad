@@ -54,3 +54,12 @@ function AddtoCart(name, description, price) {
 //AddtoCart("Door","Big yellow door",150);
 //AddtoCart("Car","Ferrari S23",150000);
 displayShoppingCart();
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
