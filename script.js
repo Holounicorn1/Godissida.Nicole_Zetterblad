@@ -50,16 +50,4 @@ function AddtoCart(name, description, price) {
 }
 
 //Add some products to our shopping cart via code or you can create a button with onclick event
-//AddtoCart("Table","Big red table",50);
-//AddtoCart("Door","Big yellow door",150);
-//AddtoCart("Car","Ferrari S23",150000);
 displayShoppingCart();
-
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}

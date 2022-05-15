@@ -188,7 +188,7 @@ p {
   text-align: center;
   font-size: 30px;
 }
-/*KNAPPEN*/
+/*KUNDVAGN KNAPPEN*/
 .cart1 {
   height: 100%;
   width: 100%;
@@ -333,18 +333,17 @@ tfoot {
 }
 .instruktioner {
   width: 70%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 2%;
-  background-color: rgba(40, 134, 189, 0.821);
   margin: 10%;
   margin-top: 0%;
   padding-top: 0%;
-  height: 170px;
 }
 .instruktionerText {
   font-size: 40px;
-  color: #f2f2f2;
+  color: #000000;
+  font-family: bradley hand (cursive);
 }
+/*FOOTER*/
 .karta {
   margin: 3%;
   margin-left: 5%;
@@ -352,4 +351,7 @@ tfoot {
 }
 .footer {
   width: 100%;
+}
+form {
+  margin: 5%;
 }
