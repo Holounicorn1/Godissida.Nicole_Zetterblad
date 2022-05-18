@@ -1,3 +1,9 @@
+/*att göra
+-fixa navbaren
+-namnge elementen
+-ändra formulär knapp
+-
+*/
 @charset "utf-8";
 
 body {
@@ -11,8 +17,8 @@ body {
 }
 /*FONT STYLER*/
 h1 {
-  font-size: 60px;
-  font-family: "IM FELL French Canon SC", sans-serif;
+  font-size: 70px;
+  font-family: "Lobster", cursive;
   text-align: center;
   color: white;
   text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000,
@@ -21,7 +27,7 @@ h1 {
 h2 {
   font-size: 30px;
   text-align: center;
-  font-family: "IM FELL French Canon SC", sans-serif;
+  font-family: "Fredoka One", cursive;
   color: white;
 }
 h3 {
@@ -38,7 +44,7 @@ h4 {
 h5 {
   font-size: 30px;
   text-align: center;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Fredoka One", cursive;
   color: rgb(0, 0, 0);
 }
 p {
@@ -48,6 +54,7 @@ p {
 .topnav {
   overflow: hidden;
   background-color: rgb(254, 148, 245);
+  height: 70px;
 }
 
 .topnav a {
@@ -55,9 +62,10 @@ p {
   display: block;
   color: #000000;
   text-align: center;
-  padding: 14px 16px;
+  padding: 2%;
   text-decoration: none;
-  font-size: 17px;
+  font-family: "Fredoka One", cursive;
+  font-size: 22px;
 }
 
 .topnav a:hover {
@@ -335,13 +343,14 @@ tfoot {
   width: 70%;
   padding: 2%;
   margin: 0%;
-  margin-left: 15%;
+  margin-left: 13%;
   padding-top: 0%;
 }
 .instruktionerText {
   font-size: 40px;
   color: #000000;
-  font-family: bradley hand (cursive);
+  font-family: "Fredoka One", cursive;
+  text-align: center;
 }
 /*FOOTER*/
 .karta {
@@ -354,4 +363,13 @@ tfoot {
 }
 form {
   margin: 5%;
+}
+.omOssText {
+  font-family: "Caveat", cursive;
+  font-size: 27px;
+}
+.omOssLista {
+  text-align: left;
+  font-family: "Caveat", cursive;
+  font-size: 27px;
 }
