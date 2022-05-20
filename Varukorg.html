@@ -74,11 +74,13 @@
 </table>
 
 </div>
+<button class="betalning"><a href="#betalning" >Gå till betalning</a></button>
+
 <button onclick="localStorage.clear(),location.reload();" class="rensa">RENSA VARUKORGEN</button>
 
 <form id="form" name="form" method="post" action="">
 
-    <fieldset >
+    <fieldset id="betalning" >
     <legend>Fyll i för bestälning</legend>
     
     <label for="fnamn">Förnamn:</label> <br>
@@ -94,7 +96,7 @@
     <input type="checkbox" id="MittKryss1" name="MittKryss1" value="Kryssad1"  />
     <label for="MittKryss1">JAG ÄR INTE EN ROBOT</label><br>
     <label for="skicka" ></label>
-    <input type="submit" name="skicka" id="skicka" value="Skicka meddelandet" class="skicka" />
+    <input type="submit" name="skicka" id="skicka" value="Lägg beställning" class="skicka" />
     
     </fieldset>
   </form>
@@ -104,7 +106,6 @@
             <!--Punktlistan med kontakter + lenkar-->
 
         <div id="Kontaktinformation" class="kontakt">
-          <div class="footer">
             <h5>Kontakt information</h5>
             
             <li>
@@ -167,7 +168,6 @@
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
-          </div>
         </div>
       </footer>
 
