@@ -4,7 +4,7 @@ function displayShoppingCart() {
   var orderedProductsTblBody = document.getElementById(
     "orderedProductsTblBody"
   );
-  //ensure we delete all previously added rows from ordered products table
+  /*Säkerställer att all tidigare information raderas ur tabellen*/
   while (orderedProductsTblBody.rows.length > 0) {
     orderedProductsTblBody.deleteRow(0);
   }
@@ -13,7 +13,7 @@ function displayShoppingCart() {
 
   console.log(shoppingCart);
 
-  //variabeln som inneholler slutsumman
+  //variabeln som innehåller slutsumman
   var cart_total_price = 0;
   for (var product in shoppingCart) {
     var row = orderedProductsTblBody.insertRow();
@@ -27,18 +27,17 @@ function displayShoppingCart() {
     cellPrice.innerHTML = shoppingCart[product].Price;
     cart_total_price += shoppingCart[product].Price;
   }
-  //fill total cost of our shopping cart
+  /*Skapar den totala prissumman av alla producter*/
   document.getElementById("cart_total").innerHTML = cart_total_price;
 }
 
 function AddtoCart(name, description, price) {
-  //Below we create JavaScript Object that will hold three properties you have mentioned:    Name,Description and Price
+  /*skapa en produvt (namn, beskrivning, pris)*/
   var singleProduct = {};
-  //Fill the product object with data
   singleProduct.Name = name;
   singleProduct.Description = description;
   singleProduct.Price = price;
-  //Add newly created product to our shopping cart
+  /*lägger till varan i varukorgen*/
   var shoppingCart = JSON.parse(localStorage.getItem("varukorg"));
   if (shoppingCart == null) {
     shoppingCart = [];
@@ -46,11 +45,10 @@ function AddtoCart(name, description, price) {
 
   shoppingCart.push(singleProduct);
   localStorage.setItem("varukorg", JSON.stringify(shoppingCart));
-  //call display function to show on screen
+  /*Kallar på funktione så att den syns på hemsidan*/
   displayShoppingCart();
 }
 console.log(orderedProductsTblBody);
-//Add some products to our shopping cart via code or you can create a button with onclick event
 displayShoppingCart();
 
 function myFunction() {
