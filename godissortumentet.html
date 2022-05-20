@@ -27,6 +27,11 @@
       href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
       rel="stylesheet"
     />
+    <!-- Font awesome icon library -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script src="script1.js" async></script>
     <link rel="script" href="script1.js" />
   </head>
@@ -42,12 +47,14 @@
     </nav>
     <main>
       <section>
+        <!--Regnbågen + rubriken-->
         <div class="box1">
           <h1>Candy company</h1>
         </div>
       </section>
 
       <section>
+        <!--Instruktionstexten som beskriver hur köpet går till-->
         <div class="instruktioner">
           <p class="instruktionerText">
             Välj mellan dina favoritgodisar och skapa dig din drömblandning!
@@ -57,26 +64,29 @@
         </div>
       </section>
       <section>
+        <!--Godis sorternas boxar-->
         <div class="flex-contariner">
           <div class="boxGodis">
-            <img src="images/godis1.png" alt="Godis" class="bildBox1" />
+            <img src="images/godis1.png" alt="godisbild" class="bildBox1" />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Påsk-nougatägg</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('123333 choklad','20g',150)">
+                10kr/50g
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Påsk-nugatägg','50g',10)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
             </div>
           </div>
           <div class="boxGodis">
-            <img src="images/godis2.png" alt="Godis" class="bildBox1" />
+            <img src="images/godis2.png" alt="godisbild" class="bildBox1" />
             <div class="textbox">
               <h7>Stora nougatägg</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('Stora nougatägg','20g',150)">
+                14kr/50g
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Stora nougatägg','50g',14)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -87,12 +97,14 @@
               src="images/godis3.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Små nougatägg</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('Små nougatägg','20g',150)">
+                13kr/50g
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Små nougatägg','50g',13)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -103,12 +115,14 @@
               src="images/godis4.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Tutti Frutti</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('Tutti grutti','20g',150)">
+                7kr/50g
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Tutti frutti','50g',7)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -119,12 +133,14 @@
               src="images/godis5.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Vit choklad ägg</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('vit choklad ägg','20g',150)">
+                12kr/50g
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('vit choklad ägg','50g',12)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -135,12 +151,14 @@
               src="images/godis6.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Mix nougatägg</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('Mix nougatägg','20g',150)">
+                13kr/50g
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Mix nougatägg','50g',13)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -151,12 +169,14 @@
               src="images/godis7.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Hasselnötägg</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('Chokladägg','20g',150)">
+                14kr/50g
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Hasselnötägg','50g',14)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -167,12 +187,14 @@
               src="images/godis8.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Kyckling ägg</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('Nötchoklad ägg','20g',150)">
+                12kr/50g
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Kycklingägg','50g',12)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -183,12 +205,14 @@
               src="images/godis9.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Små Werthers</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('Werthers','20g',150)">
+                13kr/50g
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Små werthers','50g',13)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -199,12 +223,14 @@
               src="images/godis10.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Werthers mörk</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('Werthers','20g',150)">
+                15kr/50g
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Werthers mörk','50g',15)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -215,12 +241,14 @@
               src="images/godis11.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Kola</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('123333 choklad','20g',150)">
+                10kr/50g
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('kola','50g',10)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -231,12 +259,14 @@
               src="images/godis12.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Sur melon</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('123333 choklad','20g',150)">
+                5kr/50g
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Sur melon','50g',5)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -247,12 +277,14 @@
               src="images/godis13.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Kola skalle</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('123333 choklad','20g',150)">
+                10kr/50g
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Kola skalle','50g',10)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -263,12 +295,14 @@
               src="images/godis15.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Hallon lakrits</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('123333 choklad','20g',150)">
+                6kr/50g
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Hallon lakrits','50g',6)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -279,12 +313,14 @@
               src="images/godis16.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Jordgubsskumm</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('123333 choklad','20g',150)">
+                5kr/50g
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Jordgubsskumm','50g',5)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -295,12 +331,14 @@
               src="images/godis14.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Annanasskalle</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('123333 choklad','20g',150)">
+                12kr/50g
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Annanasskalle','50g',12)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -311,12 +349,14 @@
               src="images/godis24.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Sur jordgubbe</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('123333 choklad','20g',150)">
+                11kr/kg
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Sur jordgubbe','50g',11)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -327,12 +367,14 @@
               src="images/godis18.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Sura patroner</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('123333 choklad','20g',150)">
+                13kr/50g
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Sura patroner','20g',150)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -343,12 +385,14 @@
               src="images/godis19.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Nugat</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('123333 choklad','20g',150)">
+                13kr/kg
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Nugat','50g',13)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -359,12 +403,14 @@
               src="images/godis20.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Riesen</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('123333 choklad','20g',150)">
+                14kr/50g
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Riesen','50g',14)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -375,12 +421,14 @@
               src="images/godis21.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Kola nappar</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('123333 choklad','20g',150)">
+                7kr/50g
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Kola nappar','50g',7)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -391,12 +439,14 @@
               src="images/godis29.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Frukt tugummi</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('123333 choklad','20g',150)">
+                5kr/kg
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Frukt tuggumi','50g',5)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -407,12 +457,14 @@
               src="images/godis30.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Hasselnötkräm</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('123333 choklad','20g',150)">
+                15kr/50g
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Nugatkräm hasselnöt','50g',15)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -423,12 +475,14 @@
               src="images/godis31.png"
               alt="grinchen med en kaka"
               class="bildBox1"
+              alt="godisbild"
             />
             <div class="textbox">
-              <h7>Stora nougatägg</h7><br />
+              <h7>Kanelkräm</h7><br />
               <p>
-                12,5kr/kg
-                <button onclick="AddtoCart('123333 choklad','20g',150)">
+                15kr/kg
+                <!--Knappnen som lägger in varan i varukorgen-->
+                <button onclick="AddtoCart('Nötkräm kanel','50g',15)">
                   <img src="images/cart.png" class="cart1" />
                 </button>
               </p>
@@ -436,18 +490,19 @@
           </div>
         </div>
       </section>
-
-      <script src="script.js" async></script>
+      <section>
+        <button class="varukorglenk">
+          <a href="Varukorg.html"
+            >Klicka här för att komma direkt till varukorgen!</a
+          >
+        </button>
+      </section>
     </main>
     <footer>
+      <!--Punktlistan med kontakter + lenkar-->
       <div id="Kontaktinformation" class="kontakt">
         <div class="footer">
           <h5>Kontakt information</h5>
-          <!-- Font awesome icon library -->
-          <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-          />
 
           <li>
             Mail -
@@ -495,7 +550,7 @@
               >Åva gymnasium</a
             >
           </li>
-
+          <!--Kartan-->
           <div class="karta">
             <h5>Kom och besök oss här!</h5>
             <iframe
@@ -512,9 +567,4 @@
       </div>
     </footer>
   </body>
-
-  <!-- Fontstilen -->
-  <style>
-    @import url("http://fonts.cdnfonts.com/css/im-fell-french-canon-sc");
-  </style>
 </html>

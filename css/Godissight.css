@@ -5,6 +5,7 @@
 -gör text större
 -ändra alt(beskrivning av bild)
 -css animation
+-änsta inställningarna på godiset (vikt och pris)
 -Stavning:
 * Godissortiment
 */
@@ -134,23 +135,6 @@ a {
   background-size: contain;
 }
 
-/*
-.regnboge {
-  height: 80%;
-  width: 80%;
-  margin-left: 10%;
-  margin-top: 3%;
-  z-index: 1;
-  position: relative;
-}
-.rubrikBox {
-  z-index: 2;
-  position: relative;
-  width: 70%;
-  margin-left: 15%;
-  top: -350px;
-}
-*/
 .engörningbild {
   width: 25%;
   height: 25%;
@@ -324,11 +308,12 @@ thead {
 }
 tbody {
   background-color: #e07aff;
-  font-size: 2vw;
+  font-size: 2.5vw;
 }
 tfoot {
   background-color: aqua;
   font-size: 2vw;
+  font-family: "Fredoka One", cursive;
 }
 .varukorg-box {
   width: 50%;
@@ -338,11 +323,13 @@ tfoot {
   float: right;
   margin-left: 0%;
 }
+/*varukorgsidan*/
 .engörningbild2 {
   width: 30%;
   height: 30%;
   margin: 5%;
   float: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 fieldset {
   width: 85%;
@@ -396,7 +383,8 @@ form {
   font-family: "Caveat", cursive;
   font-size: 3vw;
 }
-/*Minskning av godisboxaena*/
+/*FÖRMINSKNING AV SIDAN*/
+/*Minskning av godisboxaena , FÖRÄNDRING AV BUTTON , text storleksförendring*/
 @media (max-width: 800px) {
   .flex-container {
     display: flex;
@@ -429,5 +417,49 @@ form {
   p {
     font-size: 4vw;
   }
+  legend {
+    font-size: 2.5vw;
+    font-family: "Fredoka One", cursive;
+  }
+  label {
+    font-size: 3vw;
+  }
 }
-/*animation*/
+.rensa {
+  height: 10vw;
+  width: fit-content;
+  text-align: center;
+  font-size: 3vw;
+  background-color: rgb(238, 0, 255);
+  font-family: "Fredoka One", cursive;
+  margin: 5%;
+}
+legend {
+  font-size: 2.5vw;
+  font-family: "Fredoka One", cursive;
+}
+label {
+  font-size: 2.5vw;
+}
+.skicka {
+  background-color: #c92df9;
+  height: fit-content;
+  font-family: "Fredoka One", cursive;
+  font-size: 2vw;
+  width: 40vw;
+}
+.skicka:hover {
+  background-color: #2df9bf;
+}
+/*godissichten - varukorg knappen*/
+.varukorglenk {
+  height: 10vw;
+  width: fit-content;
+  text-align: center;
+  font-size: 3vw;
+  background-color: rgb(0, 247, 255);
+  font-family: "Fredoka One", cursive;
+  margin: 5%;
+  margin-left: 15%;
+  float: left;
+}

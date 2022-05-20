@@ -1,13 +1,12 @@
-//create array that will hold all ordered products
+/*skapar en array som inneholler alla producter*/
 
 function AddtoCart(name, description, price) {
-  //Below we create JavaScript Object that will hold three properties you have mentioned:    Name,Description and Price
+  /*skapa en produvt (namn, beskrivning, pris)*/
   var singleProduct = {};
-  //Fill the product object with data
   singleProduct.Name = name;
   singleProduct.Description = description;
   singleProduct.Price = price;
-  //Add newly created product to our shopping cart
+  /*lägger till varan i varukorgen*/
   var shoppingCart = JSON.parse(localStorage.getItem("varukorg"));
   if (shoppingCart == null) {
     shoppingCart = [];
@@ -15,13 +14,8 @@ function AddtoCart(name, description, price) {
 
   shoppingCart.push(singleProduct);
   localStorage.setItem("varukorg", JSON.stringify(shoppingCart));
-  //call display function to show on screen
-  displayShoppingCart();
 }
-console.log(orderedProductsTblBody);
-//Add some products to our shopping cart via code or you can create a button with onclick event
-displayShoppingCart();
-
+/*navbaren*/
 function myFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {

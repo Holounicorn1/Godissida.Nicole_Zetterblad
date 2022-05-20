@@ -1,6 +1,5 @@
-//create array that will hold all ordered products
+/*skapar en array som inneholler alla producter*/
 
-//this function manipulates DOM and displays content of our shopping cart
 function displayShoppingCart() {
   var orderedProductsTblBody = document.getElementById(
     "orderedProductsTblBody"
@@ -14,18 +13,15 @@ function displayShoppingCart() {
 
   console.log(shoppingCart);
 
-  //variable to hold total price of shopping cart
+  //variabeln som inneholler slutsumman
   var cart_total_price = 0;
-  //iterate over array of objects
   for (var product in shoppingCart) {
-    //add new row
     var row = orderedProductsTblBody.insertRow();
-    //create three cells for product properties
+    //Skapar dom tre cellerna för producten
     var cellName = row.insertCell(0);
     var cellDescription = row.insertCell(1);
     var cellPrice = row.insertCell(2);
     cellPrice.align = "right";
-    //fill cells with values from current product object of our array
     cellName.innerHTML = shoppingCart[product].Name;
     cellDescription.innerHTML = shoppingCart[product].Description;
     cellPrice.innerHTML = shoppingCart[product].Price;

@@ -17,6 +17,11 @@
       rel="stylesheet"
     />
     <link rel="script" href="script.js" />
+    <!-- Font awesome icon library -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
     <script src="script.js" async></script>
 
 
@@ -69,15 +74,18 @@
 </table>
 
 </div>
+<button onclick="localStorage.clear(),location.reload();" class="rensa">RENSA VARUKORGEN</button>
 
 <form id="form" name="form" method="post" action="">
 
     <fieldset >
-    <legend>FORMULÄR FÖR ATT SKICKA MEDDELANDE</legend>
+    <legend>Fyll i för bestälning</legend>
     
     <label for="fnamn">Förnamn:</label> <br>
     <input type="text" name="fnamn" id="fnamn" /> <br>
     <label for="enamn">Efternamn:</label> <br>
+    <input type="text" name="enamn" id="enamn" /> <br>
+    <label for="adress">Adress: (fakturan skickas hit)</label> <br>
     <input type="text" name="enamn" id="enamn" /> <br>
     <label for="epost">E-postadress:</label> <br>
     <input type="text" name="epost" id="epost" /> <br>
@@ -85,23 +93,20 @@
     <textarea name="meddelande" id="meddelande" cols="40" rows="5"></textarea> <br>
     <input type="checkbox" id="MittKryss1" name="MittKryss1" value="Kryssad1"  />
     <label for="MittKryss1">JAG ÄR INTE EN ROBOT</label><br>
-    <label for="skicka"></label>
-    <input type="submit" name="skicka" id="skicka" value="Skicka meddelandet" />
+    <label for="skicka" ></label>
+    <input type="submit" name="skicka" id="skicka" value="Skicka meddelandet" class="skicka" />
     
     </fieldset>
   </form>
 
   </main>
     <footer>
+            <!--Punktlistan med kontakter + lenkar-->
+
         <div id="Kontaktinformation" class="kontakt">
           <div class="footer">
             <h5>Kontakt information</h5>
-            <!-- Font awesome icon library -->
-            <link
-              rel="stylesheet"
-              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-            />
-  
+            
             <li>
               Mail -
               <a class="kontaktLenk" href="nicole.zetterblad@skola.taby.se"
@@ -148,7 +153,8 @@
                 >Åva gymnasium</a
               >
             </li>
-  
+  <!--Kartan-->
+
             <div class="karta">
               <h5>Kom och besök oss här!</h5>
               <iframe
@@ -167,11 +173,4 @@
 
 </body>
 
-
-  <!-- Fontstilen -->
-  <style>
-    @import url('http://fonts.cdnfonts.com/css/im-fell-french-canon-sc');
-  </style>
-  
-    
 </html>
