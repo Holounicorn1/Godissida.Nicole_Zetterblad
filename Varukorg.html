@@ -3,24 +3,27 @@
 <head>
     <meta charset="utf-8">
     <title>Godissida</title>
-    <link rel="icon" type="image/x-icon" href="logo1.png">
-    <link rel="stylesheet" href="Godissight.css">
+    <link rel=" icon" href="images/logga2.png" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/Godissight.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
       rel="stylesheet"
     />
     <link rel="script" href="script.js" />
+    <script src="script.js" async></script>
 
 
 </head>
 <body>  
 
-    <div class="topnav" id="myTopnav">
+    <nav class="topnav" id="myTopnav">
         <a href="Candydompany.html" class="active">HEM</a>
         <a href="godissortumentet.html">GODISSORTUMENTET</a>
         <a href="omOss.html">OM OSS</a>
@@ -28,9 +31,9 @@
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
-      </div>
-  
-      <img src="images/enhörning3.webp" alt="logga" class="engörningbild2" />
+      </nav>
+  <main>
+     <img src="images/enhörning3.webp" alt="enhörningbild" class="engörningbild2" />
 
 
  <div class="varukorg-box">
@@ -44,10 +47,10 @@
                           Name
                       </td>
                       <td>
-                          Description
+                          Beskrivning
                       </td>
                       <td>
-                          Price
+                          Pris
                       </td>
                   </tr>
               </thead>
@@ -66,9 +69,10 @@
 </table>
 
 </div>
+
 <form id="form" name="form" method="post" action="">
 
-    <fieldset style="width: 85%;">
+    <fieldset >
     <legend>FORMULÄR FÖR ATT SKICKA MEDDELANDE</legend>
     
     <label for="fnamn">Förnamn:</label> <br>
@@ -80,13 +84,14 @@
     <label for="meddelande">Meddelande:</label> <br>
     <textarea name="meddelande" id="meddelande" cols="40" rows="5"></textarea> <br>
     <input type="checkbox" id="MittKryss1" name="MittKryss1" value="Kryssad1"  />
-    <label for="MittKryss1">JAG ÄR INTE EN ROBBOT</label><br>
+    <label for="MittKryss1">JAG ÄR INTE EN ROBOT</label><br>
     <label for="skicka"></label>
     <input type="submit" name="skicka" id="skicka" value="Skicka meddelandet" />
     
     </fieldset>
-    
-    </form>
+  </form>
+
+  </main>
     <footer>
         <div id="Kontaktinformation" class="kontakt">
           <div class="footer">
@@ -160,15 +165,7 @@
         </div>
       </footer>
 
-
-
 </body>
-
-
-
-
-
-
 
 
   <!-- Fontstilen -->

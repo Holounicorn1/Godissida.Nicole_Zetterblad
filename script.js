@@ -43,12 +43,17 @@ function AddtoCart(name, description, price) {
   singleProduct.Description = description;
   singleProduct.Price = price;
   //Add newly created product to our shopping cart
+  var shoppingCart = JSON.parse(localStorage.getItem("varukorg"));
+  if (shoppingCart == null) {
+    shoppingCart = [];
+  }
+
   shoppingCart.push(singleProduct);
   localStorage.setItem("varukorg", JSON.stringify(shoppingCart));
   //call display function to show on screen
   displayShoppingCart();
 }
-
+console.log(orderedProductsTblBody);
 //Add some products to our shopping cart via code or you can create a button with onclick event
 displayShoppingCart();
 
